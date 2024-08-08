@@ -1,0 +1,33 @@
+
+html, body {
+    height: 100%;       
+    margin: 0;           
+    position: relative;  
+}
+
+body {
+    font-family: Helvetica; sans-serif;
+    background-color: antiquewhite;
+}
+
+.container {
+    height: auto;
+    width: 600px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;  
+    padding: 20px;        
+    border: 1px solid #ccc; 
+    background-color: #f9f9f9; 
+
+}
+
+ul {
+    list-style-type:none;
+}
+
+ol{
+    text-align: left;
+}
